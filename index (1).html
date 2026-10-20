@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Panduan mengenali penyebab ban motor tubeless bocor dan tidak bisa dipompa setelah tetap dikendarai saat kempis.">
+  <title>Ban Tubeless Bocor & Tidak Bisa Dipompa</title>
+  <style>
+    :root {
+      --ink: #172033;
+      --muted: #5d687c;
+      --bg: #f4f7fb;
+      --card: #ffffff;
+      --accent: #e85d25;
+      --accent-dark: #b83b12;
+      --line: #e1e7ef;
+      --warning-bg: #fff4e8;
+      --warning-ink: #7a3517;
+      --green: #167451;
+    }
+    * { box-sizing: border-box; }
+    body {
+      margin: 0;
+      font-family: Inter, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+      color: var(--ink);
+      background: var(--bg);
+      line-height: 1.65;
+    }
+    .hero {
+      padding: 64px 20px 52px;
+      color: white;
+      background: radial-gradient(circle at 85% 15%, #ff9b63 0, transparent 28%),
+                  linear-gradient(135deg, #172033, #293a57 65%, #384b67);
+    }
+    .wrap { width: min(100% - 32px, 1020px); margin: 0 auto; }
+    .eyebrow {
+      display: inline-block; padding: 6px 11px; border-radius: 999px;
+      background: rgba(255,255,255,.13); color: #ffe1d1; font-size: .82rem;
+      font-weight: 800; letter-spacing: .08em; text-transform: uppercase;
+    }
+    h1 { font-size: clamp(2rem, 5vw, 3.55rem); line-height: 1.08; margin: 18px 0; max-width: 780px; }
+    .hero p { color: #e3eaf4; max-width: 700px; font-size: 1.08rem; margin-bottom: 0; }
+    main { padding: 28px 0 56px; }
+    .alert {
+      background: var(--warning-bg); color: var(--warning-ink);
+      border: 1px solid #ffd5b3; border-left: 5px solid var(--accent);
+      border-radius: 14px; padding: 18px 20px; margin: 0 0 26px;
+    }
+    .alert strong { display: block; margin-bottom: 4px; font-size: 1.04rem; }
+    .section-title { font-size: clamp(1.45rem, 3vw, 2rem); margin: 34px 0 14px; line-height: 1.2; }
+    .intro { color: var(--muted); margin-top: 0; }
+    .grid { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 16px; }
+    .card {
+      background: var(--card); border: 1px solid var(--line); border-radius: 18px;
+      padding: 22px; box-shadow: 0 8px 25px rgba(23,32,51,.045);
+    }
+    .number {
+      width: 42px; height: 42px; display: grid; place-items: center; border-radius: 12px;
+      background: #fff0e8; color: var(--accent-dark); font-weight: 900; font-size: 1.15rem;
+      margin-bottom: 12px;
+    }
+    h3 { margin: 0 0 8px; font-size: 1.14rem; }
+    .card p { margin: 0; color: var(--muted); }
+    .steps { padding-left: 1.25rem; }
+    .steps li { padding: 5px 0 8px 4px; }
+    .safe { color: var(--green); font-weight: 800; }
+    .symptom-list { display: grid; gap: 10px; margin: 18px 0; }
+    .symptom {
+      display: flex; gap: 12px; align-items: flex-start; padding: 13px 15px;
+      background: #fff; border: 1px solid var(--line); border-radius: 12px;
+    }
+    .symptom span { font-size: 1.25rem; }
+    .symptom p { margin: 0; }
+    .faq details { background: #fff; border: 1px solid var(--line); border-radius: 12px; padding: 15px 17px; margin: 10px 0; }
+    .faq summary { cursor: pointer; font-weight: 800; }
+    .faq p { margin-bottom: 0; color: var(--muted); }
+    footer { border-top: 1px solid var(--line); padding: 22px 0; color: var(--muted); font-size: .9rem; }
+    .tag { display: inline-block; color: #fff; background: var(--accent); padding: 3px 9px; border-radius: 7px; font-size: .78rem; font-weight: 800; }
+    @media (max-width: 680px) {
+      .grid { grid-template-columns: 1fr; }
+      .hero { padding-top: 44px; }
+      .card { padding: 19px; }
+    }
+  </style>
+</head>
+<body>
+  <header class="hero">
+    <div class="wrap">
+      <span class="eyebrow">Panduan perawatan motor</span>
+      <h1>Ban Tubeless Bocor dan Tidak Bisa Dipompa Lagi?</h1>
+      <p>Jika ban motor bocor lalu tetap dikendarai saat kempis, kerusakan bisa bertambah. Kenali kemungkinan penyebabnya dan langkah aman yang perlu dilakukan.</p>
+    </div>
+  </header>
+
+  <main class="wrap">
+    <section class="alert" aria-label="Peringatan keselamatan">
+      <strong>⚠️ Jangan terus mengendarai motor saat ban kempis.</strong>
+      Beban kendaraan dapat merusak dinding ban, bibir ban, dan pelek. Dorong motor ke tempat aman atau gunakan bantuan pengangkutan menuju bengkel.
+    </section>
+
+    <h2 class="section-title">Apa penyebabnya?</h2>
+    <p class="intro">Gejala “tidak bisa dipompa” bisa memiliki beberapa penyebab. Pemeriksaan langsung oleh mekanik diperlukan untuk memastikan kerusakan.</p>
+
+    <section class="grid" aria-label="Kemungkinan penyebab">
+      <article class="card">
+        <div class="number">01</div>
+        <h3>Bibir ban terlepas dari pelek</h3>
+        <p>Ketika ban sangat kempis tetap dinaiki, bibir ban bisa tidak lagi menempel rapat pada pelek. Udara yang dipompa keluar melalui celah sehingga ban sulit mengembang.</p>
+      </article>
+      <article class="card">
+        <div class="number">02</div>
+        <h3>Lubang bocor membesar</h3>
+        <p>Lubang akibat paku atau benda tajam dapat melebar saat roda berputar dalam keadaan kempis. Udara mungkin keluar lebih cepat daripada yang bisa dimasukkan pompa.</p>
+      </article>
+      <article class="card">
+        <div class="number">03</div>
+        <h3>Dinding ban rusak</h3>
+        <p>Mengendarai motor dengan ban kempis dapat menyebabkan sobekan atau kerusakan struktur di bagian samping. Ban dengan kerusakan ini biasanya perlu diganti.</p>
+      </article>
+      <article class="card">
+        <div class="number">04</div>
+        <h3>Pentil atau pelek bermasalah</h3>
+        <p>Pentil yang bocor, pelek yang bengkok, atau permukaan pelek yang rusak juga dapat membuat udara tidak bertahan di dalam ban.</p>
+      </article>
+    </section>
+
+    <h2 class="section-title">Kenali gejalanya</h2>
+    <div class="symptom-list">
+      <div class="symptom"><span>💨</span><p><strong>Angin langsung keluar saat dipompa:</strong> kemungkinan ada kebocoran besar atau bibir ban tidak rapat pada pelek.</p></div>
+      <div class="symptom"><span>🛞</span><p><strong>Ban mengembang sebentar lalu kempis:</strong> periksa lokasi lubang, pentil, dan sambungan ban dengan pelek.</p></div>
+      <div class="symptom"><span>🔧</span><p><strong>Pompa terasa tidak memasukkan angin:</strong> pastikan kepala pompa terpasang benar; bila tetap gagal, minta bengkel memeriksa pentil dan posisi bibir ban.</p></div>
+      <div class="symptom"><span>⚠️</span><p><strong>Ada sobekan atau benjolan pada sisi ban:</strong> jangan digunakan. Minta mekanik memeriksa apakah ban harus diganti.</p></div>
+    </div>
+
+    <h2 class="section-title">Langkah penanganan yang aman</h2>
+    <section class="card">
+      <ol class="steps">
+        <li>Hentikan motor di tempat yang aman dan jangan lanjut berkendara dengan ban kempis.</li>
+        <li>Jangan memaksa memompa berulang kali jika udara langsung keluar atau ban tidak mengembang.</li>
+        <li>Jangan mencoba melepas ban atau memasang kembali bibir ban menggunakan api atau cara berbahaya.</li>
+        <li>Bawa motor ke bengkel dengan didorong jika aman, atau gunakan bantuan pengangkutan.</li>
+        <li>Minta mekanik memeriksa tapak ban, dinding ban bagian dalam dan luar, pentil, bibir ban, serta pelek.</li>
+        <li>Tambal hanya jika kerusakan berada di area yang diizinkan dan dinilai layak diperbaiki. Jika dinding ban atau struktur internal rusak, ganti ban.</li>
+      </ol>
+      <p class="safe">Prioritas utama: keselamatan pengendara, bukan sekadar membuat ban bisa menahan angin sementara.</p>
+    </section>
+
+    <h2 class="section-title">Pertanyaan umum</h2>
+    <section class="faq">
+      <details>
+        <summary>Apakah ban tubeless yang bocor selalu harus diganti?</summary>
+        <p>Tidak. Lubang kecil di area tapak kadang dapat diperbaiki dengan metode yang sesuai. Namun, kerusakan dinding samping, sobekan besar, kerusakan akibat dikendarai saat kempis, atau kerusakan struktur dapat membuat ban tidak aman dan perlu diganti.</p>
+      </details>
+      <details>
+        <summary>Apakah cairan anti-bocor bisa menyelesaikan masalah?</summary>
+        <p>Tidak selalu. Cairan anti-bocor tidak memperbaiki semua jenis kerusakan, terutama bibir ban yang tidak rapat, pentil rusak, pelek bermasalah, atau kerusakan dinding ban. Minta mekanik memeriksa kondisi ban terlebih dahulu.</p>
+      </details>
+      <details>
+        <summary>Bagaimana mencegah kejadian ini terulang?</summary>
+        <p>Periksa tekanan ban secara berkala sesuai rekomendasi pabrikan, segera berhenti jika ban terasa kempis, dan periksa ban setelah terkena benda tajam. Jangan menunda perbaikan kebocoran.</p>
+      </details>
+    </section>
+
+    <p><span class="tag">Catatan</span> Informasi ini bersifat umum dan bukan pengganti pemeriksaan langsung. Penyebab pasti hanya dapat ditentukan setelah ban, pentil, dan pelek diperiksa.</p>
+  </main>
+
+  <footer>
+    <div class="wrap">Panduan edukasi keselamatan berkendara · Ban motor tubeless</div>
+  </footer>
+</body>
+</html>
